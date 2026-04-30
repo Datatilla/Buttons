@@ -49,7 +49,7 @@ js_wrap $OUT_DIR/js/buttons.print.js "jquery datatables.net datatables.net-butto
 
 # Copy Types
 if [ -d $OUT_DIR/types ]; then
-	rm -r $OUT_DIR/types		
+	rm -r $OUT_DIR/types
 fi
 mkdir $OUT_DIR/types
 
